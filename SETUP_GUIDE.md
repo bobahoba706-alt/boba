@@ -7,7 +7,7 @@
 ## 📋 المتطلبات
 
 - PHP 7.4 أو أحدث
-- MySQL 5.7 أو أحدث  
+- MySQL 5.7 أو أحدث
 - خادم ويب (Apache/Nginx)
 - مدير قاعدة البيانات (phpMyAdmin)
 
@@ -29,7 +29,7 @@ mysql -u root -p customs_clearance < database/schema.sql
 
 ```php
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'customs_clearance'); 
+define('DB_NAME', 'customs_clearance');
 define('DB_USER', 'root');
 define('DB_PASS', 'your_password');
 
@@ -87,6 +87,7 @@ chmod 644 config/config.php
 ## ✨ المميزات
 
 ### التصميم
+
 - ✅ نفس تصميم React الأصلي
 - ✅ دعم كامل للغة العربية (RTL)
 - ✅ خط Cairo من Google Fonts
@@ -95,6 +96,7 @@ chmod 644 config/config.php
 - ✅ أيقونات Lucide
 
 ### الوظائف
+
 - ✅ نموذج طلب عرض السعر مع رفع الم��فات
 - ✅ نظام إدارة المدونة
 - ✅ الأسئلة الشائعة التفاعلية
@@ -102,6 +104,7 @@ chmod 644 config/config.php
 - ✅ إرسال رسائل البريد الإلكتروني
 
 ### الأمان
+
 - ✅ حماية من SQL Injection
 - ✅ تنظيف وتعقيم المدخلات
 - ✅ رفع آمن للملفات
@@ -110,22 +113,25 @@ chmod 644 config/config.php
 ## 🗄️ قاعدة البيانات
 
 ### الجداول الرئيسية:
+
 1. **quote_requests** - طلبات عروض الأسعار
 2. **quote_attachments** - مرفقات الطلبات
-3. **blog_posts** - مقالات المدونة  
+3. **blog_posts** - مقالات المدونة
 4. **faq_items** - الأسئلة الشائعة
 
 ## 📱 الاستخدام
 
 ### إضافة مقال جديد:
+
 ```sql
-INSERT INTO blog_posts (title, excerpt, content, category, author, tags, featured) 
+INSERT INTO blog_posts (title, excerpt, content, category, author, tags, featured)
 VALUES ('عنوان المقال', 'ملخص', 'المحتوى', 'الفئة', 'الكاتب', 'تاج1,تاج2', true);
 ```
 
 ### إضافة سؤال شائع:
+
 ```sql
-INSERT INTO faq_items (question, answer, category, keywords) 
+INSERT INTO faq_items (question, answer, category, keywords)
 VALUES ('السؤال', 'الإجابة', 'الفئة', 'كلمات مفتاحية');
 ```
 
@@ -133,7 +139,7 @@ VALUES ('السؤال', 'الإجابة', 'الفئة', 'كلمات مفتاحي
 
 - الرئيسية: `/?page=home`
 - الخدمات: `/?page=services`
-- من نحن: `/?page=about` 
+- من نحن: `/?page=about`
 - اتصل بنا: `/?page=contact`
 - المدونة: `/?page=blog`
 - الأسئلة الشائعة: `/?page=faq`
@@ -141,10 +147,12 @@ VALUES ('السؤال', 'الإجابة', 'الفئة', 'كلمات مفتاحي
 ## 📞 الدعم
 
 للمساعدة:
+
 - البريد: info@customsclearance.com
 - الهاتف: +20 10 1234 5678
 
 ---
+
 ### 🎉 المشروع جاهز للاستخدام!
 
 تم تحويل المشروع بالكامل من React إلى PHP مع الحفاظ على جميع الميزات والتصميم الأصلي.

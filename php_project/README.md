@@ -79,6 +79,7 @@ php_project/
 ## المميزات
 
 ### التصميم
+
 - ✅ نفس التصميم الأصلي من React
 - ✅ دعم كامل للغة العربية (RTL)
 - ✅ خط Cairo من Google Fonts
@@ -87,6 +88,7 @@ php_project/
 - ✅ أيقونات Lucide
 
 ### الوظائف
+
 - ✅ نموذج طلب عرض السعر مع رفع الملفات
 - ✅ نظام إدارة المحتوى للمدونة
 - ✅ الأسئلة الشائعة التفاعلية
@@ -95,6 +97,7 @@ php_project/
 - ✅ حفظ البيانات في قاعدة البيانات
 
 ### الأمان
+
 - ✅ تنظيف وتعقيم جميع المدخلات
 - ✅ حماية من SQL Injection
 - ✅ التحقق من صحة البيانات
@@ -118,14 +121,14 @@ php_project/
 ### إضافة مقال جديد للمدونة
 
 ```sql
-INSERT INTO blog_posts (title, excerpt, content, category, author, tags, featured, published) 
+INSERT INTO blog_posts (title, excerpt, content, category, author, tags, featured, published)
 VALUES ('عنوان المقال', 'ملخص المقال', 'محتوى المقال الكامل', 'الفئة', 'اسم الكاتب', 'تاج1,تاج2', true, true);
 ```
 
 ### إضافة سؤال شائع جديد
 
 ```sql
-INSERT INTO faq_items (question, answer, category, keywords, display_order, active) 
+INSERT INTO faq_items (question, answer, category, keywords, display_order, active)
 VALUES ('السؤال', 'الإجابة', 'الفئة', 'كلمات مفتاحية', 1, true);
 ```
 
@@ -154,6 +157,7 @@ VALUES ('السؤال', 'الإجابة', 'الفئة', 'كلمات مفتاحي
 ## الدعم الفني
 
 للمساعدة أو الاستفسارات:
+
 - البريد الإلكتروني: support@yoursite.com
 - الهاتف: +20 10 1234 5678
 
